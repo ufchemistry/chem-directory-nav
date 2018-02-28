@@ -3,9 +3,8 @@
 Plugin Name: UF Chemistry Department Directory Navigation
 Description: Use [chem-directory-nav url="/directory/" searchtext="Search Directory"] to insert dropdown navigation and search field for UF Chemistry Directory, using the Connections plugin.
 Author: Steven M. Kobb
-Version: 0.1
- 
-
+Version: 1.0.0
+BuildDate: 20180228
 */
 
 
@@ -28,7 +27,7 @@ function show_nav( $atts ) {
 <li><a href=\"/research/divisions/\">Divisions</a>
 <ul>
 <li><a href=\"" .  $thisUrl . "?cn-cat=74\">Analytical Division</a></li>
-<li><a href=\"" .  $thisUrl . "?cn-cat=1586\">Biochemistry Division</a></li>
+<li><a href=\"" .  $thisUrl . "?cn-cat=1586\">Chemical Biology Division</a></li>
 <li><a href=\"" .  $thisUrl . "?cn-cat=46\">Inorganic Division</a></li>
 <li><a href=\"" .  $thisUrl . "?cn-cat=79\">Organic Division</a></li>
 <li><a href=\"" .  $thisUrl . "?cn-cat=50\">Physical Division</a></li>
